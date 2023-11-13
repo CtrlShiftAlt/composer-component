@@ -1,1 +1,1 @@
-"# composer-component" 
+# composer-component
