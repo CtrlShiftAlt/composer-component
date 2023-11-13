@@ -1,18 +1,13 @@
 {
     "name": "ctrl-shift-alt/my-component",
     "description": "My Component",
-    "type": "library",
     "license": "MIT",
+    "require": {
+        "php": ">=8.2"
+    },
     "autoload": {
         "psr-4": {
             "MyComponent\\": "src/"
         }
-    },
-    "authors": [
-        {
-            "name": "wenshibiao",
-            "email": "wenshibiao@outlook.com"
-        }
-    ],
-    "require": {}
+    }
 }
