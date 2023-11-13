@@ -1,0 +1,18 @@
+{
+    "name": "ctrl-shift-alt/my-component",
+    "description": "My Component",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MyComponent\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wenshibiao",
+            "email": "wenshibiao@outlook.com"
+        }
+    ],
+    "require": {}
+}
