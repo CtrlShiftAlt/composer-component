@@ -1,5 +1,6 @@
 {
     "name": "ctrl-shift-alt/my-component",
+    "type": "library",
     "description": "My Component",
     "license": "MIT",
     "require": {
