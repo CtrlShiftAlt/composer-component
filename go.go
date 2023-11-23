@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	MakeDir("cctv/abc")
+	MakeDir("dir1/dir2/dir3")
 	fmt.Println("Hello Go")
 }
 
