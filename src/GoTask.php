@@ -15,13 +15,13 @@ class GoTask
         $directory = '';
         if (strpos($os, 'WIN') === 0) {
             $directory = "windows";
-            $path = "bin" . DIRECTORY_SEPARATOR . $directory . DIRECTORY_SEPARATOR . "a.exe";
+            $path = __DIR__ . DIRECTORY_SEPARATOR . "bin" . DIRECTORY_SEPARATOR . $directory . DIRECTORY_SEPARATOR . "a.exe";
         } else if (strpos($os, 'LINUX') === 0) {
             $directory = "linux";
-            $path = "bin" . DIRECTORY_SEPARATOR . $directory . DIRECTORY_SEPARATOR . "a";
+            $path = __DIR__ . DIRECTORY_SEPARATOR . "bin" . DIRECTORY_SEPARATOR . $directory . DIRECTORY_SEPARATOR . "a";
         } else if (strpos($os, 'DARWIN') === 0) {
             $directory = "mac";
-            $path = "bin" . DIRECTORY_SEPARATOR . $directory . DIRECTORY_SEPARATOR . "a";
+            $path = __DIR__ . DIRECTORY_SEPARATOR . "bin" . DIRECTORY_SEPARATOR . $directory . DIRECTORY_SEPARATOR . "a";
         } else {
             return "Unknown OS";
         }
