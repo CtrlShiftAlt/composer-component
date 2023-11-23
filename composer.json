@@ -1,6 +1,6 @@
 {
     "name": "ctrl-shift-alt/my-component",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "type": "library",
     "description": "My Component",
     "license": "MIT",
